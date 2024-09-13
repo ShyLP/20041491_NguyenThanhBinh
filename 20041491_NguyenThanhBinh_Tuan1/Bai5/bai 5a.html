@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5a</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        #k1 {
+            border: 2px solid #595757;
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        #tb1 {
+            width: 100%;
+            margin-bottom: 10px;
+            border-spacing: 0;
+        }
+        #tb2 {
+            border-collapse: collapse;
+        }
+        .c1 {
+            width: 100px;
+            text-align: left;
+            padding-left: 10px;
+        }
+        td, th {
+            padding: 10px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div id="k1">
+        <h2 style="text-align: center; color: #333;">Classic Movie Day</h2>
+        <table id="tb1" border="1">
+            <tr style="background-color: #ccc;">
+                <th></th>
+                <th><b>5 pm</b></th>
+                <th><b>7 pm</b></th>
+                <th><b>9 pm</b></th>
+                <th><b>10 pm</b></th>
+            </tr>
+            <tr>
+                <td class="c1"><b>Screen one</b></td>
+                <td>Star Wars</td>
+                <td>Empire Strikes Back</td>
+                <td>Return of the Jedi</td>
+                <td>The Exorcist</td>
+            </tr>
+            <tr>
+                <td class="c1"><b>Screen two</b></td>
+                <td colspan="2">Dances with Wolves</td>
+                <td colspan="2">Gone With the Wind</td>
+            </tr>
+            <tr>
+                <td class="c1"><b>Screen three</b></td>
+                <td colspan="2">2001: A Space Odyssey</td>
+                <td>The Conversation</td>
+                <td>5 Easy Pieces</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
