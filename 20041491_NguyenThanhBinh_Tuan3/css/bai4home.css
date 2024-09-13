@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    border-color: #ddd;
+    width: 100%;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.header h1 {
+    padding: 10px 5px;
+    margin: 40px 5px;
+    font-weight: 200;
+}
+.header span {
+    padding: 0 5px;
+    margin: 0 5px;
+    background-color: orange;
+    color: #fff;
+}
+.header span, .header h1 {
+    position: absolute;
+    right: 0;
+}
+.main {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.main .left {
+    width: 20%;
+    float: left;
+    background-image: url("css/back.jpg");
+}
+.main .left .menu {
+    list-style: none;
+    background-color: sandybrown;
+    height: auto;
+    position: fixed; /* Đặt menu ở vị trí cố định */
+    top: 6em;
+    left: 0;
+    width: 200px; /* Độ rộng của menu dọc */
+    height: 100%; /* Chiều cao của menu dọc bằng 100% của trang */
+    color: #fff; /* Màu văn bản trên menu */
+    padding: 20px;
+}
+.main .left .menu li {
+    text-decoration: none;
+    border-bottom: 1px dotted purple;
+    color: purple;
+}
+.main .right {
+    width: 80%;
+    float: right;
+}
+.main .right h2 {
+    color: sandybrown;
+    margin: 10px 0;
+}
+.main .right .child-left {
+    width: 50%;
+    float: left;
+}
+.main .right .child-right {
+    width: 50%;
+    float: right;
+    background-color: blanchedalmond;
+}
+.main .right .child-right .box {
+    border: 5px solid gold;
+}
+.main .right .child-right ul {
+    margin: 0 0 0 20px;
+}
+.main .right .child-right ul li {
+    padding-left: 20px;
+}
+.footer {
+    position: absolute;
+    bottom: -19%;
+    right: 0;
+    width: 80%;
+    color: #fff;
+}
+.footer h4 {
+    color: orange;
+}

@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    border-color: #ddd;
+    width: 100%;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.header h1 {
+    padding: 10px 5px;
+    margin: 40px 5px;
+    font-weight: 200;
+}
+.header span {
+    padding: 0 5px;
+    margin: 0 5px;
+    background-color: orange;
+    color: #fff;
+}
+.header span, .header h1 {
+    position: absolute;
+    right: 0;
+}
+.main {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.main .left {
+    width: 20%;
+    float: left;
+    background-image: url("css/back.jpg");
+}
+.main .left .menu {
+    list-style: none;
+    background-color: sandybrown;
+    height: auto;
+    position: fixed; 
+    top: 6em;
+    left: 0;
+    width: 200px; 
+    height: 100%; 
+    color: #fff; 
+    padding: 20px;
+}
+.main .left .menu li {
+    text-decoration: none;
+    border-bottom: 1px dotted purple;
+    color: purple;
+}
+.main .right {
+    width: 80%;
+    float: right;
+}
+.main .right h2 {
+    color: sandybrown;
+    margin: 10px 0;
+}
+.main .right .p1{
+    margin-top: 100px;
+    border: 5px solid #808080c4 ;
+    border-bottom: 5px solid #D4D4D4;
+    border-right: 5px solid #D4D4D4;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+    color: #d7982c;
+    margin-left: 600px;
+    background-color: #e7dbc7;
+}
+.main .right .p2{
+    margin-top: 100px;
+    border: 5px solid #808080c4;
+    border-bottom: 5px solid #D4D4D4;
+    border-right: 5px solid #D4D4D4;
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    color: #d7982c;
+    background-color: #e7dbc7;
+}
+.main .right .p3{
+    margin-top: 100px;
+    border: 5px solid #808080c4 ;
+    border-bottom: 5px solid #D4D4D4;
+    border-right: 5px solid #D4D4D4;
+    position: absolute;
+    top: 400px;
+    width: 200px;
+    color: #d7982c;
+    margin-left: 600px;
+    background-color: #e7dbc7;
+}
+.footer {
+    position: absolute;
+    bottom: -100%;
+    right: 0;
+    width: 80%;
+    color: #fff;
+}
+.footer h4 {
+    color: orange;
+}
